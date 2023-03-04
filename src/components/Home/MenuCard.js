@@ -8,7 +8,7 @@ const MenuCard = ({ card }) => {
     <Grid item md={3} sm={6} xs={6} sx={{ textAlign: "center" }}>
       <Paper elevation={2}>
         <img src={img} alt="" />
-        <Typography variant="h4">{name}</Typography>
+        <Typography variant="h6">{name}</Typography>
         <Typography variant="body2">{price}</Typography>
         <Rating name="read-only" value={rating} readOnly />
         <Box>

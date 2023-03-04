@@ -8,28 +8,28 @@ const menuData = [
         id: 1,
         img: img1,
         name:"Americano",
-        price: 150.00,
+        price: "150.00৳",
         rating: 4
     },
     {
         id: 2,
         img: img2,
         name:"babyccino",
-        price: 100.00,
+        price: "100.00৳",
         rating: 4
     },
     {
         id: 3,
         img: img3,
         name:"Cost Rica",
-        price: 250.00,
+        price: "250.00৳",
         rating: 4
     },
     {
         id: 4,
         img: img4,
         name:"Ethophian",
-        price: 320.00,
+        price: "320.00৳",
         rating: 4
     }
 ]

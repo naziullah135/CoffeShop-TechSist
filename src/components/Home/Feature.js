@@ -15,18 +15,18 @@ const Feature = () => {
       <Box>
         <Grid container>
           <Grid item md={3}>
-            <Box>
-              <Typography variant="h5" sx={{ textAlign: "center" }}>
+            <Box sx={{textAlign: "right"}}>
+              <Typography variant="h5" sx={{fontFamily:"raleway",fontSize:"30px"}}>
                 {" "}
                 Coffee Shop
               </Typography>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{fontFamily:"raleway",fontSize:"16px"}}>
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </Typography>
             </Box>
-            <Box>
-              <Typography variant="h5" sx={{ textAlign: "center" }}>
+            <Box mt={5} sx={{textAlign: "right"}}>
+              <Typography variant="h5" >
                 {" "}
                 Coffee Machine
               </Typography>
@@ -35,8 +35,8 @@ const Feature = () => {
                 social impact.
               </Typography>
             </Box>
-            <Box>
-              <Typography variant="h5" sx={{ textAlign: "center" }}>
+            <Box mt={5} sx={{textAlign: "right"}}>
+              <Typography variant="h5">
                 {" "}
                 High Quality
               </Typography>
@@ -46,12 +46,12 @@ const Feature = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={6}>
+          <Grid sx={{padding:"0px 30px 0px 30px"}} item md={6}>
             <img src={feature} alt="" />
           </Grid>
           <Grid item md={3}>
-            <Box>
-              <Typography variant="h5" sx={{ textAlign: "center" }}>
+            <Box sx={{ textAlign: "left" }}>
+              <Typography variant="h5" >
                 {" "}
                 The Perfect Cup
               </Typography>
@@ -60,8 +60,8 @@ const Feature = () => {
                 social impact.
               </Typography>
             </Box>
-            <Box>
-              <Typography variant="h5" sx={{ textAlign: "center" }}>
+            <Box mt={5} sx={{ textAlign: "left" }}>
+              <Typography variant="h5" >
                 {" "}
                 Barista Coffee
               </Typography>
@@ -70,8 +70,8 @@ const Feature = () => {
                 social impact.
               </Typography>
             </Box>
-            <Box>
-              <Typography variant="h5" sx={{ textAlign: "center" }}>
+            <Box mt={5} sx={{ textAlign: "left" }}>
+              <Typography variant="h5">
                 {" "}
                 Supreme Beans
               </Typography>
