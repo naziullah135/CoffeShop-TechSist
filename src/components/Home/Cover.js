@@ -21,7 +21,7 @@ const Cover = () => {
           <img src={coverBg} alt="" />
           <Box mt={6} color={"black"}>
             <Box sx={{padding:"30px 30px 10px 50px"}} >
-              <Typography variant="h3">
+              <Typography variant="h3" sx={{fontFamily:"quesha"}}>
                 Freshly Brewed Coffee
               </Typography>
               <Typography mt={2}variant="body1">
@@ -31,7 +31,7 @@ const Cover = () => {
               </Typography>
             </Box>
             <Box sx={{padding:"15px 30px 10px 50px"}}>
-              <Button sx={{backgroundColor:"#A35715", color:'white'}}>Order Now</Button>
+              <Button variant="primary" sx={{backgroundColor:"#A35715 !important", color:'white'}}>Order Now</Button>
             </Box>
           </Box>
         </Grid>

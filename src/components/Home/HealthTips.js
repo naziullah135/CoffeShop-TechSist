@@ -29,14 +29,37 @@ const HealthTips = () => {
           </Box>
           <Box>
             <Grid container>
-              <Grid container bgcolor={"darkgray"} md={6}>
-                <Grid item md={6}></Grid>
-                <Grid item md={6}></Grid>
+              <Grid container bgcolor={"#0E0E0E"} md={6}>
+
+                <Grid item md={6}>
+                <Box><Typography variant="h5" sx={{paddingLeft:"50px",paddingTop:"30px"}}>Opening Hours</Typography></Box>
+                <Box mt={2} mb={5}>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px"}}>Saturday</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px"}}>Sunday</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px"}}>Monday</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px"}}>Tuesday</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px"}}>Wednesday</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px"}}>Thursday</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px"}}>Friday</Typography>
+                </Box>
+                </Grid>
+                <Grid item md={6}>
+                <Box mt={10} mb={5}>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px",color:"#A35715"}}>10 AM - 11 PM</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px",color:"#A35715"}}>12 PM - 11 PM</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px",color:"#A35715"}}>09 AM - 10 PM</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px",color:"#A35715"}}>10 AM - 11 PM</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px",color:"#A35715"}}>11 AM - 11 PM</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px",color:"#A35715"}}>10 AM - 11 PM</Typography>
+                <Typography variant="body1" sx={{padding:"5px 0 5px 50px",color:"#A35715"}}>09 AM - 12 AM</Typography>
+                </Box>
+                </Grid>
               </Grid>
               <Grid container item md={6} bgcolor={"white"}>
-                <Grid item md={6} color={"black"}>
-                  <Typography variant="body1">Friday Offer</Typography>
-                  <Typography variant="h5">05% OFF</Typography>
+                <Grid item md={6} color={"black"} sx={{paddingLeft:"50px",paddingTop:"50px"}}>
+                  <Typography variant="h5">Friday Offer</Typography>
+                  <Typography sx={{color:"#A35715"}}  mt={2} variant="h3">05%</Typography>
+                  <Typography sx={{color:"#A35715"}}  mt={2}  variant="h3">OFF</Typography>
                 </Grid>
                 <Grid item md={6}>
                   <img src={cup} alt="" />

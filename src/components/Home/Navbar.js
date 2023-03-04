@@ -1,4 +1,3 @@
-import { Padding } from "@mui/icons-material";
 import {
   AppBar,
   List,
@@ -14,6 +13,7 @@ const Navbar = () => {
   const navLeftItems = ["Home", "About Us", "Our Product", "Menu"];
   const navRightItems = ["Blog News", "Contact Us", "Cart", "Log in"];
   return (
+    <Box id="back-to-top-anchor" component="nav">
     <AppBar sx={{ background:"black"}}>
       <Container>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between", py:2}}>
@@ -43,6 +43,7 @@ const Navbar = () => {
         </Toolbar>
       </Container>
     </AppBar>
+    </Box>
   );
 };
 

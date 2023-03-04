@@ -31,7 +31,7 @@ const Memories = () => {
               </Box>
             </Grid>
             <Grid item md={5}>
-              <Box sx={{margin:"20px"}}>
+              <Box sx={{margin:"0 20px 0 20px"}}>
                 <Box sx={{ "& img": { maxWidth: "100%" } }}>
                   <img src={memories2} alt="" />
                 </Box>
@@ -44,7 +44,7 @@ const Memories = () => {
                 </Typography>
               </Box>
             </Grid>
-            <Grid item md={3}>
+            <Grid item md={3} sx={{display:"flex",alignItems:"center"}}>
               <Box>
                 <Box sx={{ "& img": { maxWidth: "100%" } }}>
                   <img src={memories3} alt="" />

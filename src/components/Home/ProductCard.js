@@ -6,12 +6,12 @@ const ProductCard = ({card}) => {
     const {name,price,img,ratings}= card;
     return (
         <Grid item md={4} sm={6} xs={6} sx={{ textAlign: "center" }}>
-        <Paper elevation={2}>
+        <Paper sx={{backgroundColor:"#0E0E0E",color:"white",padding: "50px"}} elevation={2}>
           <img src={img} alt="" />
           <Typography variant="h6">{name}</Typography>
-          <Typography variant="body2">{price}</Typography>
-          <Rating name="read-only" value={ratings} readOnly />
-          <Box>
+          <Typography sx={{color:" #A35715", padding:"10px 0 10px 0"}} variant="h6">{price}</Typography>
+          <Rating sx={{border:"1px solid #A35715"}} name="read-only" value={ratings} readOnly />
+          <Box sx={{paddingTop:"10px"}}>
             <Button variant="outlined" color="inherit">
               Add to Cart
             </Button>

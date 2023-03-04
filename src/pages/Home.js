@@ -13,7 +13,7 @@ import '@fontsource/public-sans';
 
 const Home = () => {
   return (
-    <Box bgcolor={"black"} color={"white"} sx={{fontFamily:'Quesha'}}>
+    <Box bgcolor={"black"} color={"white"} sx={{fontFamily:'quesha'}}>
       <Navbar />
       <Cover />
       <Feature />

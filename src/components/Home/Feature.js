@@ -9,38 +9,38 @@ const Feature = () => {
   return (
     <Container >
       <Box mt={11}>
-      <Typography variant="h4" sx={{ textAlign: "center",marginBottom:'48px'}}>
+      <Typography variant="h4" sx={{ fontFamily:"raleway", textAlign: "center",marginBottom:'48px'}}>
         Providing Unique Coffee Experiences
       </Typography>
       <Box>
         <Grid container>
-          <Grid item md={3}>
+          <Grid item md={3} sx={{paddingRight:"30px"}}>
             <Box sx={{textAlign: "right"}}>
               <Typography variant="h5" sx={{fontFamily:"raleway",fontSize:"30px"}}>
                 {" "}
                 Coffee Shop
               </Typography>
-              <Typography variant="body1" sx={{fontFamily:"raleway",fontSize:"16px"}}>
+              <Typography  sx={{padding:"15px 15px 0 0"}} variant="body1">
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </Typography>
             </Box>
-            <Box mt={5} sx={{textAlign: "right"}}>
-              <Typography variant="h5" >
+            <Box mt={10} sx={{textAlign: "right"}}>
+              <Typography variant="h5" sx={{fontFamily:"raleway",fontSize:"30px"}}>
                 {" "}
                 Coffee Machine
               </Typography>
-              <Typography variant="body1">
+              <Typography  sx={{padding:"15px 15px 0 0"}}variant="body1">
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </Typography>
             </Box>
-            <Box mt={5} sx={{textAlign: "right"}}>
-              <Typography variant="h5">
+            <Box mt={10} sx={{textAlign: "right"}}>
+              <Typography variant="h5" sx={{fontFamily:"raleway",fontSize:"30px"}}>
                 {" "}
                 High Quality
               </Typography>
-              <Typography variant="body1">
+              <Typography  sx={{padding:"15px 15px 0 0"}} variant="body1">
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </Typography>
@@ -49,33 +49,33 @@ const Feature = () => {
           <Grid sx={{padding:"0px 30px 0px 30px"}} item md={6}>
             <img src={feature} alt="" />
           </Grid>
-          <Grid item md={3}>
+          <Grid item md={3} sx={{paddingLeft:"30px"}}>
             <Box sx={{ textAlign: "left" }}>
-              <Typography variant="h5" >
+              <Typography variant="h5" sx={{fontFamily:"raleway",fontSize:"30px"}}>
                 {" "}
                 The Perfect Cup
               </Typography>
-              <Typography variant="body1">
+              <Typography  sx={{padding:"15px 15px 0 0"}} variant="body1">
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </Typography>
             </Box>
-            <Box mt={5} sx={{ textAlign: "left" }}>
-              <Typography variant="h5" >
+            <Box mt={10} sx={{ textAlign: "left" }}>
+              <Typography variant="h5" sx={{fontFamily:"raleway",fontSize:"30px"}}>
                 {" "}
                 Barista Coffee
               </Typography>
-              <Typography variant="body1">
+              <Typography sx={{padding:"15px 15px 0 0"}} variant="body1">
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </Typography>
             </Box>
-            <Box mt={5} sx={{ textAlign: "left" }}>
-              <Typography variant="h5">
+            <Box mt={10} sx={{ textAlign: "left" }}>
+              <Typography variant="h5" sx={{fontFamily:"raleway",fontSize:"30px"}}>
                 {" "}
                 Supreme Beans
               </Typography>
-              <Typography variant="body1">
+              <Typography  sx={{padding:"15px 15px 0 0"}} variant="body1">
                 Our Coffees are carefully selected for quality, flavor and
                 social impact.
               </Typography>

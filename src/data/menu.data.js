@@ -14,7 +14,7 @@ const menuData = [
     {
         id: 2,
         img: img2,
-        name:"babyccino",
+        name:"Babyccino",
         price: "100.00৳",
         rating: 4
     },
